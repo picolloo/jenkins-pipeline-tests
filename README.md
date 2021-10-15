@@ -3,7 +3,7 @@
 Hello World para testar as pipelines do Jenkins.<br>
 Subindo jenkins com Docker Compose para testes.
 
- Volume <b>jenkins_data</b> criado na pasta <b>/var/lib/docker/volumes</b><br>.
+ Volume <b>jenkins_data</b> é criado na pasta <b>/var/lib/docker/volumes</b>.<br>
  Bind mount <b>/data</b> para colocar arqui no container. ($PWD = diretório atual, neste caso diretório do arquivo)
 
 ```yml
